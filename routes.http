@@ -1,3 +1,37 @@
+# @name get-prompts
+GET http://localhost:3333/prompts
 
-# @name hello
-GET http://localhost:3333
+###
+
+# @name upload
+POST http://localhost:3333/videos
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="file"; filename="teste.mp3"
+Content-Type: audio/mpeg
+
+< ./teste.mp3
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+
+###
+
+# @name create-transcription
+POST http://localhost:3333/videos/145728f4-7d33-4765-b3e0-fe518227ce77/transcription
+Content-Type: application/json
+
+{
+    "prompt": "rastrin, veículos, instalação, rastreadores, viagens, fluxos, topcon"
+}
+
+###
+
+# @name generata-ai-completion
+POST http://localhost:3333/ai/complete
+Content-Type: application/json
+
+{
+    "videoId": "145728f4-7d33-4765-b3e0-fe518227ce77",
+    "temperature": 0.5,
+    "template": "Gere um resumo sucinto da transcrição do vídeo informada a seguir: '''{transcription}'''"
+}
