@@ -57,5 +57,5 @@ Esses recursos de transcrição e geração de prompts simplificam a criação d
 
 ## Contato
 
-Se você tiver dúvidas, sugestões ou precisar de ajuda, não hesite em entrar em contato conosco em [geovanebarbosacc@hotmail.com](mailto:geovanebarbosacc@hotmail.com).
+Se você tiver dúvidas, sugestões ou precisar de ajuda, não hesite em entrar em contato [geovanebarbosacc@hotmail.com](mailto:geovanebarbosacc@hotmail.com).
 
