@@ -12,16 +12,9 @@
 
 Esse é o backend do upload-ia, o projeto é uma API REST desenvolvida com Node.js e Fastify, que oferece uma solução completa para transformar vídeos em conteúdo de texto e gerar resultados a partir prompts de entradas, com auxílio de Inteligências artificiais. O projeto utiliza da uma integração com a API da OpenAI para garantir resultados incríveis.
 
-## Principais Recursos
+## Recursos Principais
 
-Aqui estão os principais recursos do nosso backend:
-
-### Transcrição de Vídeos
-
-- 🎤 **Transcrição de Vídeos:** Utilizando a capacidade da API da OpenAI, nosso backend converte o áudio dos vídeos em texto. Isso torna o conteúdo do vídeo facilmente acessível e pesquisável.
-
-### Prompts de IA
-
-- 💡 **Prompts de IA:** Com a ajuda da API da OpenAI, nosso sistema gera automaticamente títulos chamativos e descrições envolventes a partir do conteúdo transcritos. Isso economiza tempo e garante que seu conteúdo seja atraente para o público.
+- **Transcrição de Vídeos com IA:** Utilizando a capacidade da API da OpenAI, nosso backend converte o áudio dos vídeos em texto. Isso torna o conteúdo do vídeo facilmente acessível e pesquisável.
+- **Prompts de IA:** Com a ajuda da API da OpenAI, nosso sistema gera automaticamente títulos chamativos e descrições envolventes a partir do conteúdo transcritos. Isso economiza tempo e garante que seu conteúdo seja atraente para o público.
 
 Esses recursos de transcrição e geração de prompts simplificam a criação de conteúdo, permitindo que você economize tempo e esforço, ao mesmo tempo em que mantém a qualidade. 🚀🎥🤖
