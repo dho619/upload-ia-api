@@ -18,3 +18,29 @@ Esse é o backend do upload-ia, o projeto é uma API REST desenvolvida com Node.
 - **Prompts de IA:** Com a ajuda da API da OpenAI, nosso sistema gera automaticamente títulos chamativos e descrições envolventes a partir do conteúdo transcritos. Isso economiza tempo e garante que seu conteúdo seja atraente para o público.
 
 Esses recursos de transcrição e geração de prompts simplificam a criação de conteúdo, permitindo que você economize tempo e esforço, ao mesmo tempo em que mantém a qualidade. 🚀🎥🤖
+
+## Como Usar
+
+1. Clone este repositório:
+
+   ```shell
+   git clone https://github.com/dho619/upload-ia-api.git
+   ```
+
+2. Instale as dependências (lembre-se de usar o node ^18.17.1):
+
+   ```shell
+   upload-ia-api
+   npm install | yarn | pnpm i
+   ```
+
+3. Rode o projeto:
+
+   ```shell
+   npm run dev | yarn dev | pnpm run dev
+   ```
+
+## Contato
+
+Se você tiver dúvidas, sugestões ou precisar de ajuda, não hesite em entrar em contato conosco em [geovanebarbosacc@hotmail.com](mailto:geovanebarbosacc@hotmail.com).
+
