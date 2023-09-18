@@ -33,6 +33,9 @@ export async function uploadVideoRoute(app: FastifyInstance){
         const fileUploadName = `${fileBaseName}-${randomUUID()}${extension}`
         const uploadDestination = path.resolve(__dirname, '../../tmp', fileUploadName)
 
+        if (!fs.existsSync(uploadDestination.replace(fileUploadName, '')))
+            fs.mkdirSync(uploadDestination.replace(fileUploadName, ''));
+
         await pump(data.file, fs.createWriteStream(uploadDestination))
 
         const video = await prisma.video.create({
