@@ -1,5 +1,6 @@
 # Bem-vindo ao Backend do projeto Upload IA!
 
+![NLW IA](https://img.shields.io/badge/NLW%20IA-Rocketseat-8257e5)
 ![Node.js](https://img.shields.io/badge/Node.js-18.17.1-green)
 ![Fastify](https://img.shields.io/badge/Fastify-4.23.1-blue)
 ![Prisma](https://img.shields.io/badge/Prisma-5.3.0-lightgrey)
