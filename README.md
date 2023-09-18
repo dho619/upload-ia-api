@@ -30,11 +30,26 @@ Esses recursos de transcrição e geração de prompts simplificam a criação d
 2. Instale as dependências (lembre-se de usar o node ^18.17.1):
 
    ```shell
-   upload-ia-api
+   cd upload-ia-api
    npm install | yarn | pnpm i
    ```
 
-3. Rode o projeto:
+3. Crie o banco
+   ```shell
+   npm prisma migrate dev | pnpm prisma migrate dev | ...
+   ```
+
+4. Popule o banco com os prompts:
+   ```shell
+   npm prisma db seed  | pnpm prisma db seed  | ...
+   ```
+
+5. Verifique se criou o banco e preencheu a tabela de prompts:
+   ```shell
+   npm prisma studio | pnpm prisma studio | ...
+   ```
+
+6. Rode o projeto:
 
    ```shell
    npm run dev | yarn dev | pnpm run dev
